@@ -1,61 +1,167 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <title>Pedro Pablo Vargas Ancán</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f2f4f7, #e9edf2);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .wrapper {
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+    .left-column {
+      flex: 2;
+    }
+    .right-column {
+      flex: 1;
+      text-align: center;
+    }
+    header {
+      margin-bottom: 2rem;
+    }
+    header h1 {
+      margin-bottom: 0.2em;
+    }
+    header h3 {
+      margin-top: 0;
+      color: #666;
+    }
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 0.6em;
+      padding-left: 1em;
+      position: relative;
+    }
+    ul li::before {
+      content: "▪";
+      position: absolute;
+      left: 0;
+      color: #0077cc;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <div class="wrapper">
-    <header>
-      <h1>Pedro Pablo Vargas Ancán</h1>
-      <h3>Ingeniero Civil Industrial | Business Management | Ingeniero Mecánico Industrial</h3>
-    </header>
+    <div class="left-column">
+      <header>
+        <h1>Pedro Pablo Vargas Ancán</h1>
+        <h3>Ingeniero Civil Industrial | Business Management | Ingeniero Mecánico Industrial</h3>
+      </header>
 
-    <img src="https://github.com/Peter19191/MSC-2025-1/blob/main/WhatsApp%20Image%202025-04-05%20at%206.55.05%20PM%20(1).jpeg?raw=true" 
-         alt="Pedro Pablo Vargas Ancán" 
-         style="max-width:200px; box-shadow:0 2px 8px rgba(0,0,0,0.2); display:block; margin:20px auto;">
+      <section>
+        <h2>Contacto</h2>
+        <ul>
+          <li>Email: <a href="mailto:pedropabloig16@gmail.com">pedropabloig16@gmail.com</a></li>
+          <li>Teléfono: +56 9 8719 2492</li>
+          <li>Ubicación: Puente Alto, Santiago, Chile</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Contacto</h2>
-      <ul>
-        <li>Email: <a href="mailto:pedropabloig16@gmail.com">pedropabloig16@gmail.com</a></li>
-        <li>Teléfono: +56 9 8719 2492</li>
-        <li>Ubicación: Puente Alto, Santiago, Chile</li>
-      </ul>
-    </section>
+      <section>
+        <h2>Formación Académica</h2>
+        <ul>
+          <li>Magíster en Simulación Computacional – PUCV (2025-2026)</li>
+          <li>Ingeniería Civil Industrial – Universidad Central (2020–2023)</li>
+          <li>Business Management – BYU, EE.UU. (2021–2024)</li>
+          <li>Ingeniería Mecánica en Producción Industrial – INACAP, Santiago (2016–2019)</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Formación Académica</h2>
-      <ul>
-        <li>Magíster en Simulación Computacional – PUCV (2025-2026)</li>
-        <li>Ingeniería Civil Industrial – Universidad Central (2020–2023)</li>
-        <li>Business Management – BYU, EE.UU. (2021–2024)</li>
-        <li>Ingeniería Mecánica en Producción Industrial – INACAP, Santiago (2016–2019)</li>
-      </ul>
-    </section>
+      <section>
+        <h2>Experiencia Profesional</h2>
+        <ul>
+          <li><strong>Revesol</strong> – Analista de Ingeniería (2024 - Actualidad)</li>
+          <li><strong>BYU</strong> – Pasantía como líder de investigación (2023–2024)</li>
+          <li><strong>Codelco Andina</strong> – Memorista (2023)</li>
+          <li><strong>SQM</strong> – Pasantía CRM (2022)</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Experiencia Profesional</h2>
-      <ul>
-        <li><strong>Revesol</strong> – Analista de Ingeniería (2024 - Actualidad)</li>
-        <li><strong>BYU</strong> – Pasantía como líder de investigación (2023–2024)</li>
-        <li><strong>Codelco Andina</strong> – Memorista (2023)</li>
-        <li><strong>SQM</strong> – Pasantía CRM (2022)</li>
-      </ul>
-    </section>
+      <section>
+        <h2>Actividades Académicas</h2>
+        <ul>
+          <li>Ayudantía en Administración, Planificación, Estrategias y Proyecto de Título I – Universidad Central de Chile (2023)</li>
+          <li>Expositor de Seminario en el área de Dibujo Técnico – Colegio Polivalente Raulí (Octubre 2019 y Abril 2024)</li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Enlaces</h2>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/pedropablovargasanc%C3%A1n/" target="_blank">Ver mi perfil en LinkedIn</a></li>
-        <li><a href="https://github.com/Peter19191" target="_blank">Ver mi perfil en GitHub</a></li>
-      </ul>
-    </section>
+      <section>
+        <h2>Actividades Extracurriculares</h2>
+        <ul>
+          <li>Voluntariado de ayuda social – Iglesia de Jesucristo de los Santos de los Últimos Días (S.U.D.), Puente Alto, Santiago (2016–2022)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Competencias</h2>
+        <ul>
+          <li>Creatividad e innovación en la resolución de problemas inesperados</li>
+          <li>Interés por actualizar constantemente mis conocimientos</li>
+          <li>Capacidad de trabajo en equipo y generación de compañerismo</li>
+          <li>Destreza en la comunicación interpersonal</li>
+          <li>Responsabilidad y compromiso laboral</li>
+          <li>Puntualidad, orden y buena presentación personal</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Idiomas</h2>
+        <ul>
+          <li>Español – Nativo</li>
+          <li>Inglés – Avanzado</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Enlaces</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/pedropablovargasanc%C3%A1n/" target="_blank">Ver mi perfil en LinkedIn</a></li>
+          <li><a href="https://github.com/Peter19191" target="_blank">Ver mi perfil en GitHub</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="right-column">
+      <img src="https://github.com/Peter19191/MSC-2025-1/blob/main/WhatsApp%20Image%202025-04-05%20at%206.55.05%20PM%20(1).jpeg?raw=true" alt="Pedro Pablo Vargas Ancán">
+    </div>
   </div>
 </body>
 </html>
